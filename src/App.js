@@ -15,7 +15,7 @@ const App = () => {
   return <>
     <Header/>
     <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route exact path='/OlxWebsiteClone/' component={Home}/>
       <Route exact path='/cat' component={ComCat}/>
       <Route exact path='/post' component={Post}/>
       <Route exact path="/main" component={Main}/>
