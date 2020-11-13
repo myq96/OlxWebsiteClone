@@ -74,11 +74,11 @@ const Main = () => {
       {login === true ? (
         <>
           <Home />
-          <Link exact to="/">
+          <Link exact to="/OlxWebsiteClone/">
             <div className="main_login"></div>
           </Link>
           <div className="login_window">
-            <Link exact to="/">
+            <Link exact to="/OlxWebsiteClone/">
               <div className="close_login" onClick={closeSigup}>
                 <CloseIcon />
               </div>

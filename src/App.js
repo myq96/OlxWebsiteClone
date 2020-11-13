@@ -16,11 +16,11 @@ const App = () => {
     <Header/>
     <Switch>
       <Route exact path='/OlxWebsiteClone/' component={Home}/>
-      <Route exact path='/cat' component={ComCat}/>
-      <Route exact path='/post' component={Post}/>
-      <Route exact path="/main" component={Main}/>
-      <Route exact path="/logout" component={CurrUser}/>
-      <Route exact path="/post/attributes" component={PostAds}/>
+      <Route exact path='/OlxWebsiteClone/cat' component={ComCat}/>
+      <Route exact path='/OlxWebsiteClone/post' component={Post}/>
+      <Route exact path="/OlxWebsiteClone/main" component={Main}/>
+      <Route exact path="/OlxWebsiteClone/logout" component={CurrUser}/>
+      <Route exact path="/OlxWebsiteClone/post/attributes" component={PostAds}/>
       <Route path="/OlxWebsiteClone/:adId" component={AdsPage} />
       <Route component={Oops}/>
       

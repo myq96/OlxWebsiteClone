@@ -27,7 +27,7 @@ const AdsPage = () => {
   return (
     <>
       <div className="ads_cat_name">
-        {" "}
+        
         <p>
           {fbitem.mainCat} / {fbitem.SubCat}
         </p>
@@ -36,11 +36,11 @@ const AdsPage = () => {
         <div className="adsPage_details">
           <div className="ads_Category">
             <div className="ads_img">
-              {" "}
-              <img src={fbitem.adsPhoto} />{" "}
+              
+              <img src={fbitem.adsPhoto} />
             </div>
             <div className="ads_details">
-              {" "}
+              
               <h3 className="details_heading">Details</h3>
               <div className="make">
                 <div className="maker">
@@ -80,7 +80,7 @@ const AdsPage = () => {
             <div className="location_date">
               <div className="ad_location">{fbitem.location}</div>
               <div className="ad_date">
-                {fbitem.month} {fbitem.date}{" "}
+                {fbitem.month} {fbitem.date}
               </div>
             </div>
           </div>
@@ -89,24 +89,24 @@ const AdsPage = () => {
             <div className="seller_title">Seller description</div>
             <div className="seller_photo_name">
               <div className="seller_photo">
-                <img src={fbitem.userPhoto} />{" "}
+                <img src={fbitem.userPhoto} />
               </div>
               <div className="seller_name">
-                {" "}
-                <h5>{fbitem.displayName}</h5>{" "}
+                
+                <h5>{fbitem.displayName}</h5>
               </div>
               <div className="forward_arrow">
-                {" "}
-                <ArrowForwardIosIcon />{" "}
+                
+                <ArrowForwardIosIcon />
               </div>
             </div>
             <div className="seller_chat">
-              {" "}
-              <h3>Chat with seller</h3>{" "}
+              
+              <h3>Chat with seller</h3>
             </div>
             <div className="seller_number">
-              {" "}
-              <PhoneIcon /> <h3>{fbitem.mobile}</h3>{" "}
+              
+              <PhoneIcon /> <h3>{fbitem.mobile}</h3>
             </div>
           </div>
 
@@ -124,7 +124,7 @@ const AdsPage = () => {
               <h6>AD ID {fbitem.adId}</h6>
             </div>
             <div className="report">
-              <p>REPORT THIS AD</p>{" "}
+              <p>REPORT THIS AD</p>
             </div>
           </div>
         </div>

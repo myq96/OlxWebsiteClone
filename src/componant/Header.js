@@ -50,7 +50,7 @@ const Header = () => {
   return (
     <>
       <div className="header" onClick={anyCloseMenu}>
-        <Link exact to="/">
+        <Link exact to="/OlxWebsiteClone/">
           <div className="logo">
             <img src={logo} alt="logo" />
           </div>
@@ -84,13 +84,13 @@ const Header = () => {
 
         {Cuser === null ? (
           <>
-            <Link exact to="/main">
+            <Link exact to="/OlxWebsiteClone/main">
               <div className="login">
                 <button>Login</button>
               </div>
             </Link>
 
-            <Link exact to="/main">
+            <Link exact to="/OlxWebsiteClone/main">
               <div className="signUp">
                 <div className="signUpStyle">
                   <button>
@@ -107,19 +107,19 @@ const Header = () => {
           </>
         ) : (
           <>
-            <Link exact to="/">
+            <Link exact to="/OlxWebsiteClone/">
               <div className="ChatIcon">
                 <ChatIcon />
               </div>
             </Link>
 
-            <Link exact to="/">
+            <Link exact to="/OlxWebsiteClone/">
               <div className="NotificationIcon">
                 <NotificationsNoneIcon />
               </div>
             </Link>
 
-            <Link exact to="/logout">
+            <Link exact to="/OlxWebsiteClone/logout">
               <div className="UserInfo">
                 <img
                   src={
@@ -133,7 +133,7 @@ const Header = () => {
               </div>
             </Link>
 
-            <Link exact to="/post">
+            <Link exact to="/OlxWebsiteClone/post">
               <div className="signUp">
                 <div className="signUpStyle">
                   <button>
@@ -152,7 +152,7 @@ const Header = () => {
       </div>
 
       <div className="main_category">
-        <Link exact to="/cat" style={{ textDecoration: "none", color: "#000" }}>
+        <Link exact to="/OlxWebsiteClone/cat" style={{ textDecoration: "none", color: "#000" }}>
           <div className="allCategory">
             all category
             <KeyboardArrowDownIcon />

@@ -33,7 +33,7 @@ const CurrUser = () => {
   return (
     <>
       <Home />
-      <Link exact to="/">
+      <Link exact to="/OlxWebsiteClone/">
         <div className="goToHome"></div>
       </Link>
       <div className="User_window">

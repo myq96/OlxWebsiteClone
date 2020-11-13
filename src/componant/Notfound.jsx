@@ -16,10 +16,10 @@ const Notfound = () => {
           <p>Error 404</p>
           <div className="goToHomeLink">
             <div>Here are some helpful links:</div>
-            <Link exact to="/" className="home">
+            <Link exact to="/OlxWebsiteClone/" className="home">
               <div>Home</div>
             </Link>
-            <Link exact to="/" className="goTohelp">
+            <Link exact to="/OlxWebsiteClone/" className="goTohelp">
               <div>Help</div>
             </Link>
           </div>

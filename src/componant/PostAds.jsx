@@ -164,7 +164,7 @@ const PostAds = () => {
             <div className="cat_seleted">SELECTED CATEGORY</div>
             <div className="main_selected_cat">
               {mainCat} / {subCat}
-              <Link exact to="/post" className="goToPost">
+              <Link exact to="/OlxWebsiteClone/post" className="goToPost">
                 <div> Change </div>
               </Link>
             </div>
