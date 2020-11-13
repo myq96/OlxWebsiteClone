@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/OlxWebsiteClone/static/css/main.f26f67b8.chunk.css",
+    "main.js": "/OlxWebsiteClone/static/js/main.26423ce4.chunk.js",
+    "main.js.map": "/OlxWebsiteClone/static/js/main.26423ce4.chunk.js.map",
+    "runtime-main.js": "/OlxWebsiteClone/static/js/runtime-main.2771c3c7.js",
+    "runtime-main.js.map": "/OlxWebsiteClone/static/js/runtime-main.2771c3c7.js.map",
+    "static/css/2.da8d94e3.chunk.css": "/OlxWebsiteClone/static/css/2.da8d94e3.chunk.css",
+    "static/js/2.4756536e.chunk.js": "/OlxWebsiteClone/static/js/2.4756536e.chunk.js",
+    "static/js/2.4756536e.chunk.js.map": "/OlxWebsiteClone/static/js/2.4756536e.chunk.js.map",
+    "index.html": "/OlxWebsiteClone/index.html",
+    "static/css/2.da8d94e3.chunk.css.map": "/OlxWebsiteClone/static/css/2.da8d94e3.chunk.css.map",
+    "static/css/main.f26f67b8.chunk.css.map": "/OlxWebsiteClone/static/css/main.f26f67b8.chunk.css.map",
+    "static/js/2.4756536e.chunk.js.LICENSE.txt": "/OlxWebsiteClone/static/js/2.4756536e.chunk.js.LICENSE.txt",
+    "static/media/banner.335aed20.jpg": "/OlxWebsiteClone/static/media/banner.335aed20.jpg",
+    "static/media/olx app.04c5d659.png": "/OlxWebsiteClone/static/media/olx app.04c5d659.png",
+    "static/media/one.c7b1f59f.jpg": "/OlxWebsiteClone/static/media/one.c7b1f59f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2771c3c7.js",
+    "static/css/2.da8d94e3.chunk.css",
+    "static/js/2.4756536e.chunk.js",
+    "static/css/main.f26f67b8.chunk.css",
+    "static/js/main.26423ce4.chunk.js"
+  ]
+}
