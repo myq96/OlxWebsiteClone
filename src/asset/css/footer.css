@@ -1,0 +1,67 @@
+
+/* footer style start */
+.footer_category{
+    border-top: 1px solid #c0c5c7;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 25px;
+    background-color: #EBEEEF;
+}
+
+.footer_category h1{
+    font-size: 14px;
+    color: #002F34;
+    margin-bottom: 10px;
+}
+
+.footer_category p{
+    font-size: 13px;
+    color: #002F34;
+    margin-bottom: 3px;
+    font-weight: 200;
+}
+
+.socialIcons{
+    display: flex;
+}
+
+.footerSocial{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: start;
+}
+
+.footerSocial img{
+    margin: 20px 3px;
+    width: 25%;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #002F34;
+    color: white;
+    padding: 20px 100px;
+}
+
+.countries{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyRight{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h3{
+    font-size: 14px;
+}
+
+.footer h4{
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 5px;
+    cursor: pointer;
+}

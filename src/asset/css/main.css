@@ -1,0 +1,75 @@
+
+
+.login_window {
+  opacity: 1;
+  background-color: white;
+  z-index: 15;
+  max-width: 25%;
+  height: 60%;
+  margin: 0 auto;
+  position: absolute;
+  top: 30%;
+  /* bottom: 40%; */
+  left: 15px;
+  right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.close_login{
+    color: #002F34;
+    cursor: pointer;
+    /* margin-left: 290px; */
+    /* margin-bottom: 15px ; */
+}
+
+.login_phone,
+.login_facebook,
+.login_google,
+.login_email
+{
+    width: 90%;
+    margin: 7px 10px;
+    border: 2px solid #002F34 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #44666A;
+    border-radius: 3%;
+    font-weight: 600;
+}
+
+.login_phone:hover,
+.login_facebook:hover,
+.login_google:hover,
+.login_email:hover
+{
+    border: 3px solid #002F34 ;
+    cursor: pointer;
+}
+
+.share_Personal{
+    width: 90%;
+    margin: 5px 10px;
+    padding: 5px;
+    color: #44666A;
+    border-radius: 3%;
+    font-size: 12px;
+}
+
+.fa-google{
+    margin-right: 5px;
+}
+
+.terms_condition {
+    width: 90%;
+    margin: 5px 10px;
+    padding: 5px;
+    color: #44666A;
+    border-radius: 3%;
+    font-size: 14px;
+}

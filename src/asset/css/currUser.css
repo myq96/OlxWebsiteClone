@@ -1,0 +1,133 @@
+.goToHome {
+    background-color: transparent;
+    opacity: 0.5;
+    z-index: 11;
+    width: 100%;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+  }
+
+.User_window{
+    z-index: 112;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    background-color: white;
+    max-width: 30%;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 11px 14px 14px 0px grey;
+}
+
+.image_name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user_image img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.user_info{
+    margin-left: 5px;
+}
+
+.hello_user{
+    font-size: 14px;
+    font-weight: 300;
+    color: #405050;
+}
+
+.user_name{
+    font-size: 38px;
+    color: #002F34;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.user_view{
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: underline;
+    color: #002F34;
+}
+
+.steps{
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #002F34 ;
+}
+
+.steps_info{
+    text-align: justify;
+    color: #405050;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.ads_section, .help_setting, .install, .logout{
+    border-top: 1px solid black;
+}
+
+
+.my_ads, .buy_buss, .bought_pkgs{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 22px;
+    color: #405050;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.my_ads:hover, .buy_buss:hover, .bought_pkgs:hover, .help:hover, .setting:hover, .install_app:hover, .logout_user:hover{
+    background-color: #C8F8F6;
+}
+
+.ads_section_heading{
+    margin-left: 10px;
+}
+
+
+
+.help, .setting, .install_app, .logout_user{
+    padding: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    color: #405050;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    
+.User_window{
+    z-index: 112;
+    position: absolute;
+    top: 10%;
+    /* right: 10%; */
+    background-color: white;
+    max-width: 60%;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 11px 14px 14px 0px grey;
+}
+}

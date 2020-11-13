@@ -1,0 +1,54 @@
+.error_page{
+    display: flex;
+    justify-content: center;
+    margin: 4% 0;
+}
+
+.oops_text{
+    margin: 0 30px;
+}
+
+.oops_text h1{
+    font-size: 116px;
+    color: #002F34;
+}
+
+.oops_text h6{
+    font-size: 26px;
+    font-weight: 200;
+    color: #002F34;
+}
+
+.oops_text p{
+    margin-top: 5%;
+    font-size: 14px;
+    font-weight: 100;
+    color: #002F34;
+}
+
+.goToHomeLink{
+    display: flex;
+    color: #002F34;
+}
+
+.home{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #002F34;
+    font-weight: 100;
+}
+
+.home:hover, .goTohelp:hover{
+        color: #5d5555;
+}
+
+.goTohelp{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #002F34;;
+    font-weight: 100;
+}
+
+.oops_image img{
+    width: 260px;
+}

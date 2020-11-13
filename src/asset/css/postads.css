@@ -1,0 +1,133 @@
+
+.post_heading{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #002F34;
+}
+
+.ads_select_cat{
+    margin: 0 15%;
+    border: 1px solid #bfc1c2;
+    padding: 15px 20px;
+}
+
+.cat_seleted{
+    font-size: 22px;
+    color: #002F34;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.seleted_cat{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_selected_cat{
+    display: flex;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #686969;
+    border-bottom: 1px solid #bfc1c2;
+    padding-bottom: 25px ;
+}
+
+.goToPost{
+    margin-left:6px;
+    text-decoration: none;
+    font-size: 14.5px;
+    border-bottom: 2px solid #002F34;
+    color: #002F34;
+    font-weight: 600;
+}
+
+.goToPost:hover{
+    border-bottom: none;
+}
+
+.details{
+    font-size: 22px;
+}
+
+.post_details, .post_price, .post_photo, .post_location, .post_Review_Details, .submit_btn{
+    padding: 15px;
+    border-bottom: 1px solid #bfc1c2;
+}
+
+.details{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input_details{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    color:  #686969;
+}
+
+.input_details input{
+    width: 50%;
+    height: 30px;
+}
+
+.input_details input:focus{
+    outline: 2px solid #00A49F;
+}
+
+.input_details p{
+    font-size: 12px;
+    font-weight: 200;
+    color: #686969;
+}
+
+.user_photo{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.Cuser_photo{
+    border-radius: 50%; 
+    width:80px;
+}
+
+.Cuser_name{
+    color: #002F34;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 2px;
+}
+
+.sms{
+    font-size: 16px;
+}
+
+.pgLoader{
+    background-color: black;
+    opacity: 0.5;
+    z-index: 11;
+    width: 100%;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.loaderAnimate{
+    margin: 20%  50% 0 50%;
+    opacity: 1;
+}
+
+.loaderCounter h4{
+    margin:0 48%;
+    font-size: 42px;
+    font-weight: 600;
+    color: #eee4e4;
+    opacity: 1;
+}
