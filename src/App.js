@@ -21,7 +21,7 @@ const App = () => {
       <Route exact path="/main" component={Main}/>
       <Route exact path="/logout" component={CurrUser}/>
       <Route exact path="/post/attributes" component={PostAds}/>
-      <Route path="/:adId" component={AdsPage} />
+      <Route path="/OlxWebsiteClone/:adId" component={AdsPage} />
       <Route component={Oops}/>
       
     </Switch>
