@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/OlxWebsiteClone/static/css/main.1a1e88af.chunk.css",
-    "main.js": "/OlxWebsiteClone/static/js/main.46b75d36.chunk.js",
-    "main.js.map": "/OlxWebsiteClone/static/js/main.46b75d36.chunk.js.map",
+    "main.css": "/OlxWebsiteClone/static/css/main.e384e898.chunk.css",
+    "main.js": "/OlxWebsiteClone/static/js/main.e1523c39.chunk.js",
+    "main.js.map": "/OlxWebsiteClone/static/js/main.e1523c39.chunk.js.map",
     "runtime-main.js": "/OlxWebsiteClone/static/js/runtime-main.2771c3c7.js",
     "runtime-main.js.map": "/OlxWebsiteClone/static/js/runtime-main.2771c3c7.js.map",
     "static/css/2.da8d94e3.chunk.css": "/OlxWebsiteClone/static/css/2.da8d94e3.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.4756536e.chunk.js.map": "/OlxWebsiteClone/static/js/2.4756536e.chunk.js.map",
     "index.html": "/OlxWebsiteClone/index.html",
     "static/css/2.da8d94e3.chunk.css.map": "/OlxWebsiteClone/static/css/2.da8d94e3.chunk.css.map",
-    "static/css/main.1a1e88af.chunk.css.map": "/OlxWebsiteClone/static/css/main.1a1e88af.chunk.css.map",
+    "static/css/main.e384e898.chunk.css.map": "/OlxWebsiteClone/static/css/main.e384e898.chunk.css.map",
     "static/js/2.4756536e.chunk.js.LICENSE.txt": "/OlxWebsiteClone/static/js/2.4756536e.chunk.js.LICENSE.txt",
     "static/media/banner.335aed20.jpg": "/OlxWebsiteClone/static/media/banner.335aed20.jpg",
     "static/media/olx app.04c5d659.png": "/OlxWebsiteClone/static/media/olx app.04c5d659.png",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.2771c3c7.js",
     "static/css/2.da8d94e3.chunk.css",
     "static/js/2.4756536e.chunk.js",
-    "static/css/main.1a1e88af.chunk.css",
-    "static/js/main.46b75d36.chunk.js"
+    "static/css/main.e384e898.chunk.css",
+    "static/js/main.e1523c39.chunk.js"
   ]
 }
