@@ -12,7 +12,7 @@ const Main = () => {
   const history = useHistory();
 
   const goHome = () => {
-    history.push("/");
+    history.push("/OlxWebsiteClone/");
   };
 
   const closeSigup = () => {

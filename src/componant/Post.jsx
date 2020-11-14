@@ -198,7 +198,7 @@ const Post = () => {
     });
     localStorage.setItem("selCat", JSON.stringify(seletedCat));
     setTimeout(() => {
-      history.push("/post/attributes");
+      history.push("/OlxWebsiteClone/post/attributes");
     }, 1000);
   };
 

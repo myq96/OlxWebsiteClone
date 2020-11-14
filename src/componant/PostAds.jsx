@@ -139,7 +139,7 @@ const PostAds = () => {
   };
   if (progress == 100) {
     setTimeout(() => {
-      history.push("/");
+      history.push("/OlxWebsiteClone/");
     }, 2000);
   }
 

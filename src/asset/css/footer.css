@@ -4,6 +4,7 @@
     border-top: 1px solid #c0c5c7;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 30px 25px;
     background-color: #EBEEEF;
 }
@@ -23,12 +24,14 @@
 
 .socialIcons{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footerSocial{
     margin: 10px 0px;
     display: flex;
     justify-content: start;
+    flex-wrap: wrap;
 }
 
 .footerSocial img{
@@ -40,6 +43,7 @@
 .footer{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #002F34;
     color: white;
     padding: 20px 100px;
@@ -47,12 +51,14 @@
 
 .countries{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .copyRight{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .footer h3{

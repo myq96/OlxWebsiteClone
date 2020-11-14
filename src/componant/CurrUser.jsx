@@ -16,7 +16,7 @@ const CurrUser = () => {
   const history = useHistory();
 
   const goHome = () => {
-    history.push("/");
+    history.push("/OlxWebsiteClone/");
   };
 
   const logoutUser = () => {
