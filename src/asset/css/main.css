@@ -1,11 +1,10 @@
-
-
 .login_window {
   opacity: 1;
   background-color: white;
   z-index: 15;
-  max-width: 25%;
-  height: 60%;
+  max-width: 50%;
+  /* height: 60%; */
+  padding: 3%;
   margin: 0 auto;
   position: absolute;
   top: 30%;

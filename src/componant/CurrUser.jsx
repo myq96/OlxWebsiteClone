@@ -66,38 +66,38 @@ const CurrUser = () => {
         <div className="ads_section">
           <div className="my_ads">
             <div>
-              {" "}
-              <LibraryBooksIcon />{" "}
-            </div>{" "}
+              
+              <LibraryBooksIcon />
+            </div>
             <div>
-              {" "}
-              <h6 className="ads_section_heading"> My Ads</h6>{" "}
+              
+              <h6 className="ads_section_heading"> My Ads</h6>
             </div>
           </div>
           <div className="buy_buss">
             <div>
-              {" "}
-              <AssignmentIcon />{" "}
-            </div>{" "}
+              
+              <AssignmentIcon />
+            </div>
             <div>
-              {" "}
+              
               <h6 className="ads_section_heading">
-                {" "}
+                
                 Buy Business Packages
-              </h6>{" "}
+              </h6>
             </div>
           </div>
           <div className="bought_pkgs">
             <div>
-              {" "}
-              <PaymentIcon />{" "}
-            </div>{" "}
+              
+              <PaymentIcon />
+            </div>
             <div>
-              {" "}
+              
               <h6 className="ads_section_heading">
-                {" "}
+                
                 Bought Packages & Billings
-              </h6>{" "}
+              </h6>
             </div>
           </div>
         </div>
@@ -105,22 +105,22 @@ const CurrUser = () => {
         <div className="help_setting">
           <div className="help">
             <div>
-              {" "}
-              <HelpOutlineIcon />{" "}
-            </div>{" "}
+              
+              <HelpOutlineIcon />
+            </div>
             <div>
-              {" "}
-              <h6 className="ads_section_heading"> Help</h6>{" "}
+              
+              <h6 className="ads_section_heading"> Help</h6>
             </div>
           </div>
           <div className="setting">
             <div>
-              {" "}
-              <TuneIcon />{" "}
-            </div>{" "}
+              
+              <TuneIcon />
+            </div>
             <div>
-              {" "}
-              <h6 className="ads_section_heading"> Settings</h6>{" "}
+              
+              <h6 className="ads_section_heading"> Settings</h6>
             </div>
           </div>
         </div>
@@ -128,15 +128,15 @@ const CurrUser = () => {
         <div className="install">
           <div className="install_app">
             <div>
-              {" "}
-              <GetAppIcon />{" "}
-            </div>{" "}
+              
+              <GetAppIcon />
+            </div>
             <div>
-              {" "}
+              
               <h6 className="ads_section_heading">
-                {" "}
+                
                 Install OLX Lite app
-              </h6>{" "}
+              </h6>
             </div>
           </div>
         </div>
@@ -144,12 +144,12 @@ const CurrUser = () => {
         <div className="logout" onClick={logoutUser}>
           <div className="logout_user">
             <div>
-              {" "}
-              <ExitToAppIcon />{" "}
-            </div>{" "}
+              
+              <ExitToAppIcon />
+            </div>
             <div>
-              {" "}
-              <h6 className="ads_section_heading"> Logout</h6>{" "}
+              
+              <h6 className="ads_section_heading"> Logout</h6>
             </div>
           </div>
         </div>
